@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["he9lin@gmail.com"]
   spec.summary       = %q{Help deal with datetime with zones.}
   spec.description   = %q{Help deal with datetime with zones.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/he9lin/date_time_with_zone"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
