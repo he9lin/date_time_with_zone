@@ -1,6 +1,6 @@
 # DateTimeWithZone
 
-TODO: Write a gem description
+Helps with set time with a zone.
 
 ## Installation
 
@@ -18,11 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+input = {date: "2014-03-14", time: "05:15 PM", zone: "Beijing"}
+datetime = DateTimeWithZone::DateTime.new(input).to_datetime
+p datetime.zone
+# => CST
+p datetime.strftime('%Y-%m-%d')
+# => 2014-03-14
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/date_time_with_zone/fork )
+1. Fork it ( https://github.com/he9lin/date_time_with_zone/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
