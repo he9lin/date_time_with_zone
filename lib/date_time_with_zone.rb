@@ -22,4 +22,4 @@ module DateTimeWithZone
   end
 end
 
-require "date_time_with_zone/datetime"
+require "date_time_with_zone/date_time"

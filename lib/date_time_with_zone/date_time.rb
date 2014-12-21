@@ -1,3 +1,5 @@
+require 'active_support/time'
+
 module DateTimeWithZone
   class DateTime
     DATE_FORMATTER = "%Y-%m-%d"
